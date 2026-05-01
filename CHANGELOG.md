@@ -2,6 +2,25 @@
 
 All notable changes to the LaunchDarkly Relay will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org).
 
+## [10.0.0-rc.2](https://github.com/launchdarkly/ld-relay/compare/v9.0.0-rc.2...v10.0.0-rc.2) (2026-05-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* Remove unused EVENTS_INLINE_USERS config option ([#650](https://github.com/launchdarkly/ld-relay/issues/650))
+
+### Features
+
+* Add OpenTelemetry distributed tracing ([#644](https://github.com/launchdarkly/ld-relay/issues/644)) ([8e69755](https://github.com/launchdarkly/ld-relay/commit/8e6975546c0c18259e033d2169de4e5a83b72f29))
+* Expose environment ID via X-LD-EnvId response header ([#648](https://github.com/launchdarkly/ld-relay/issues/648)) ([81a9264](https://github.com/launchdarkly/ld-relay/commit/81a9264f268626473424023ea745c8125a11a5a2))
+* Remove unused EVENTS_INLINE_USERS config option ([#650](https://github.com/launchdarkly/ld-relay/issues/650)) ([a715c07](https://github.com/launchdarkly/ld-relay/commit/a715c070419d8f72865ff69139b0dbfb0efb8369))
+* Replace ldlog logging infrastructure with log/slog with OTEL support ([#643](https://github.com/launchdarkly/ld-relay/issues/643)) ([700ecfb](https://github.com/launchdarkly/ld-relay/commit/700ecfbb1cb56b17217a7541daf0cd429bf48c60))
+
+
+### Bug Fixes
+
+* use weak ETag format for cacheable responses ([#647](https://github.com/launchdarkly/ld-relay/issues/647)) ([3917b52](https://github.com/launchdarkly/ld-relay/commit/3917b52b91c6c7cfefed80c0671aa58a3201aff5))
+
 ## [8.19.1](https://github.com/launchdarkly/ld-relay/compare/v8.19.0...v8.19.1) (2026-04-29)
 
 
